@@ -1,0 +1,36 @@
+Class Activity #2
+
+#1
+a) It supposed to return the last matched y element's index in array x.
+It never check the index 0.
+
+b) x = []; y = 9  expected: -1; result: -1
+
+c) x = [2,4]; y = 4  expected: 1; result: 4
+
+d) x = [1]; y = 0  expected: -1; result: -1
+
+e) x = [2,4],; y = 2  expected: 0; result: -1
+
+Answer: b) x[]; y=3  c)x=[0,1,2]; y=2  d)x=[1,2,3]; y=4  e)x=[1,2,3]; y=1
+
+
+#2
+a) It will return the number of element that either odd or positive in array x. It can't process negative odd number.
+
+b) x = []
+
+c) x = [1,2,3] -- all positive number
+
+d) x = [-2,1,2,3] -- a array contains even negative numbers
+
+e) x = [-3,-2,0,1,2]
+
+
+#3
+a) supposed to: clone truck. Problem: in vehicle class, it returns vehicle clone. In Truck, it would be a problem when super.clone() called, it will return the vehicle clone.
+
+
+
+
+

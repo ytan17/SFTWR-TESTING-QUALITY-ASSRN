@@ -1,0 +1,57 @@
+Report of testing:
+
+// Equilateral 
+Test case T001:
+Actual output: Equilateral 
+Verdict: pass
+
+Test case T002:
+Actual output: All values must be > 0
+Verdict: pass
+
+Test case T003:
+Actual output: All values must be > 0
+Verdict: pass
+
+// Isosceles
+Test case T004:
+Actual output: Isosceles
+Verdict: pass
+
+Test case T005:
+Actual output: Not a triangle
+Verdict: pass
+
+Test case T006:
+Actual output: All values must be > 0
+Verdict: pass
+
+Test case T007:
+Actual output: All values must be > 0
+Verdict: pass
+
+// Scalene
+Test case T008:
+Actual output: Scalene
+Verdict: pass
+
+Test case T009:
+Actual output: Not a triangle
+Verdict: pass
+
+Test case T0010:
+Actual output: All values must be > 0
+Verdict: pass
+
+Test case T0011:
+Actual output: All values must be > 0
+Verdict: pass
+
+
+Test case T0012:
+Actual output: Invalid input
+Verdict: pass
+
+Test case T0013:
+Actual output: Invalid input
+Verdict: pass

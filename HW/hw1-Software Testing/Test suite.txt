@@ -1,0 +1,58 @@
+List of all test case:
+
+// Equilateral 
+Test case T001
+Input value: 3,3,3
+Expected output: Equilateral 
+
+Test case T002
+Input value: 0,0,0
+Expected output: All values must be > 0
+
+Test case T003
+Input value: -1,-1,-1
+Expected output: All value must be > 0
+
+// Isosceles
+Test case T004
+Input value: 2,2,1
+Expected output: Isosceles
+
+Test case T005
+Input value: 2,2,5
+Expected output: Not a triangle
+
+Test case T006
+Input value: 3,3,0
+Expected output: All value must be > 0
+
+Test case T007
+Input value: 20,20,-1
+Expected output: All value must be > 0
+
+// Scalene
+Test case T008
+Input value: 2,3,4
+Expected output: Scalene
+
+Test case T009
+Input value: 2,3,25
+Expected output: Not a triangle
+
+Test case T0010
+Input value: 0,7,9
+Expected output: All value must be > 0
+
+Test case T0011
+Input value: -2,-1,5
+Expected output: All value must be > 0
+
+
+Test case T0012
+Input value: null
+Expected output: Invalid input
+
+Test case T0013
+Input value: ff
+Expected output: Invalid input
+

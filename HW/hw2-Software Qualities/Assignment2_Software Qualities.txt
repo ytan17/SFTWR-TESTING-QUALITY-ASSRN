@@ -1,0 +1,51 @@
+Assignment 2: Software Qualities
+1)
+Calculation version1:
+
+For the original case: 
+		System goes down -- 2 times per week
+		down time        -- 3 minutes each time
+
+plan A: half the down time per week && MTTF remains the same
+		(1 week) system goes down -- about 2 times
+		(1 term) down time        -- average 1.5 minutes
+
+	=	(2 weeks) system goes down -- about 4 times
+		(1 term)  down time        -- average 1.5 minutes
+
+	= 	(in 2 weeks) system goes down about 4 time which is about 6 minutes in total
+	= 	(in 4 weeks) system goes down about 8 time which is about 12 minutes in total
+	= 	(in 8 weeks) system goes down about 16 time which is about 24 minutes in total
+
+Plan B: doubling MTTF && availability remains the same
+		(2 weeks) system goes down -- about 2 times
+		(1 term)  down time        -- average 3 minutes
+
+	= 	(in 2 weeks) system goes down about 2 time which is about 6 minutes in total
+	= 	(in 4 weeks) system goes down about 4 time which is about 12 minutes in total
+	= 	(in 8 weeks) system goes down about 8 time which is about 24 minutes in total
+
+
+Calculation version2:
+For the original case:
+	availability  = (1 week - 2 times * 3 minutes)/1 week = (10080 minutes - 6 minutes)/ 10080 minutes = 99.94%
+	MTTF = (1 week - 2 times * 3 minutes)/ 2 times = 10074 minutes / 2 times = 5037 minutes
+
+Plan A:
+	availability  = (1 week - 2 times * 1.5 minutes)/1 week = (10080 minutes - 3 minutes)/ 10080 minutes = 99.97%
+	MTTF = (1 week - 2 times * 1.5 minutes)/ 2 times = 10077 minutes / 2 times = 5038.5 minutes
+
+Plan B:
+	availability  = (1 week - 2 times * 3 minutes)/1 week = (10080 minutes - 6 minutes)/ 10080 minutes = 99.94%
+	MTTF = (1 week - 1 times * 3 minutes)/ 1 times = 10077 minutes / 1 times = 10077 minutes
+
+Based on the calculation above, I would like to make an improvement follow Plan B. 
+1.
+(version1) By using plan B, after 2 weeks' running, the system would have less chance to go down, and plan A and plan B take about the same time for system goes up in total by weeks. 
+(Version2) By using plan B, the availability goes down about 0.03% than using plan A. However, the MTTF of plan B is about double size of MTTF of plan A which mean the system will have lower chance to go down by using plan B.
+2. Therefore, by using plan B, there would be a lower chance for about the maximum of 150 users to experience the system goes down during the downloading which takes one hour for a typic download. 
+3. And an interrupted download must be restarted from the beginning. So during the download time, the system goes down means the user will waster at most one hour on downloading.
+4. Therefore, rather then wasting one hour on restarted downloading from the beginning, wasting 1.5 minutes more on waiting system goes up again would be more acceptable.
+
+
+ 

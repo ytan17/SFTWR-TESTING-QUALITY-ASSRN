@@ -1,0 +1,80 @@
+SE 333 - Assignment 1 part 2
+
+4a) Eugene Galkine
+
+b)
+Report of testing:
+
+// Equilateral
+Test case T001:
+Actual output: Equilateral
+Verdict: pass
+
+Test case T002:
+Actual output: Invalid Triangle
+Verdict: pass
+
+Test case T003:
+Actual output: Invalid Triangle
+Verdict: pass
+
+// Isosceles
+Test case T004:
+Actual output: Isosceles
+Verdict: pass
+
+Test case T005:
+Actual output: Invalid Triangle
+Verdict: pass
+
+Test case T006:
+Actual output: Invalid Triangle
+Verdict: pass
+
+Test case T007:
+Actual output: Invalid Triangle
+Verdict: pass
+
+// Scalene
+Test case T008:
+Actual output: Scalene
+Verdict: pass
+
+Test case T009:
+Actual output: Invalid Triangle
+Verdict: pass
+
+Test case T0010:
+Actual output: Invalid Triangle
+Verdict: pass
+
+Test case T0011:
+Actual output: Invalid Triangle
+Verdict: pass
+
+Test case T0012:
+Actual output: Not an integer
+Verdict: pass
+
+Test case T0013:
+Actual output: Not an integer
+Verdict: pass
+
+c) The weakness of my partner's program that discovered during the test are
+	1. The first printing message that asks user for input 3 numbers is not clear enough. Instead of using "Please enter three numbers", it is better to use "Please enter three integers in a different line".
+	2. If his program contains comments, it will increase the readability.
+other than that my partner's program pass all test cases that I created for the situations like enter zero or negative value, null, or string type value for a side of triangle, enter the values that cannot form a triangle, or enter the values that can form equilateral, isosceles, or scalene triangle.
+
+d) The weakness of my test suite that discovered during the test are
+	1. in the first draft, I did not contain the test cases about null input, and none integer value input.
+	2. if the test cases are organized by the section of equilateral, isosceles, and scalene, it would be more readable for later review.
+
+e) the challenge and difficulties I had encountered during the testing process are
+	1. consider all the possibility and create the test cases for it
+   the lessons that I learned in this exercise are 
+    1. When we create the test cases, we should be organized because it will increase the readability when we look back on the test suit file.
+    2. we need to make sure all test cases are correct which mean if the program is right, running the test case will give the same result as expected.
+    3. If we failed the test case, we should go back to the code and fix it immediately.
+    4. It would be better if we do peer review and testing.
+
+
